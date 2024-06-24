@@ -1,2 +1,2 @@
 # Projetos-Kotlin
-Alguns projetos utilizando Kotiln para aprendizado da linguagem.
+Alguns projetos utilizando Kotlin para aprendizado da linguagem.

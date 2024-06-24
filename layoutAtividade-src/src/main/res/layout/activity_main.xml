@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:hapticFeedbackEnabled="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        tools:srcCompat="@drawable/cad" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textAlignment="center"
+        android:textColor="#F1DA27"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textAlignment="center"
+        android:textColor="#F1D729"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F1D827"
+        android:text="Logar"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#673AB7"
+        android:textSize="34sp"
+        app:cornerRadius="40sp" />
+
+    <TextView
+        android:id="@+id/txtCriar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar Conta"
+        android:textAlignment="center"
+        android:textColor="#993A06"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
